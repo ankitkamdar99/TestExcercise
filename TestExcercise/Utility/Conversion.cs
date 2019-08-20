@@ -118,7 +118,7 @@ namespace TestExcercise.Utility
         public static string ConvertToWords(string numb)
         {
             string val = "", number = numb, points = "", andStr = "", pointStr = "";
-            string endStr = "Only";
+            string endStr = "";
             try
             {
                 int decimalPlace = numb.IndexOf(".");
